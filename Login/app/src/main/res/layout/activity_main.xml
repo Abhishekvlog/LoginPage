@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="63sp"
+        android:background="#0583EA" />
+    <TextView
+        android:layout_width="17.25sp"
+        android:layout_height="16.25sp"
+        android:drawableEnd="@drawable/ic_vector__4_"
+        android:layout_marginStart="19.37sp"
+        android:layout_marginTop="22.66sp"/>
+    <TextView
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="18sp"
+        android:layout_marginStart="77sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="23sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginStart="47.45sp"
+        android:layout_marginTop="131sp"
+        android:textSize="18sp"
+        android:textColor="#444444"/>
+    <TextView
+        android:layout_width="337sp"
+        android:layout_height="1sp"
+        android:layout_alignParentEnd="true"
+        android:background="#C4C4C4"
+        android:layout_marginTop="163.5sp"
+        android:layout_marginEnd="37sp"/>
+
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="337sp"
+        android:layout_height="1sp"
+        android:layout_alignParentEnd="true"
+        android:background="#C4C4C4"
+        android:layout_marginTop="254sp"
+        android:layout_marginEnd="37sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="218sp"
+        android:layout_marginStart="37sp"
+        android:textSize="18sp"
+        android:textColor="#444444"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USE PHONE NUMBER"
+        android:layout_marginTop="286sp"
+        android:layout_marginStart="120sp"
+        android:textSize="18sp"
+        android:textColor="#0583EA"/>
+<Button
+    android:layout_width="339sp"
+    android:layout_height="51sp"
+    android:background="#858992"
+    android:layout_marginTop="359sp"
+    android:layout_marginStart="44sp"
+    android:text="Login"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password"
+        android:layout_marginTop="434sp"
+        android:layout_marginStart="147sp"
+        android:textSize="18sp"
+        android:textColor="#858992"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:layout_marginTop="513sp"
+        android:layout_marginStart="197sp"
+        android:textSize="22sp"
+        android:textColor="#000000"/>
+    <Button
+        android:layout_width="339sp"
+        android:layout_height="51sp"
+        android:background="#3B5998"
+        android:layout_marginTop="565sp"
+        android:layout_marginStart="44sp"
+        android:text="CONTINUE WITH FACEBOOK"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="24sp"
+        android:layout_height="24sp"
+        android:drawableEnd="@drawable/ic_ion_logo_facebook"
+        android:background="#000000"
+        android:layout_marginTop="580sp"
+        android:layout_marginStart="60sp"/>
+    <Button
+        android:layout_width="339sp"
+        android:layout_height="51sp"
+        android:background="@color/white"
+        android:layout_marginTop="638sp"
+        android:layout_marginStart="44sp"
+        android:text="CONTINUE WITH GOOGLE"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="24sp"
+        android:layout_height="24sp"
+        android:drawableEnd="@drawable/ic_flat_color_icons_google"
+        android:layout_marginStart="60sp"
+        android:layout_marginTop="651sp"/>
+
+
+
+
+
+</RelativeLayout>
