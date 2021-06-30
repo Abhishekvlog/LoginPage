@@ -100,17 +100,12 @@
         android:layout_marginTop="565sp"
         android:layout_marginStart="44sp"
         android:text="CONTINUE WITH FACEBOOK"
+        android:drawableStart="@drawable/ic_ion_logo_facebook"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="18sp"
         android:gravity="center"/>
-    <TextView
-        android:layout_width="24sp"
-        android:layout_height="24sp"
-        android:drawableEnd="@drawable/ic_ion_logo_facebook"
-        android:background="#000000"
-        android:layout_marginTop="580sp"
-        android:layout_marginStart="60sp"/>
+
     <Button
         android:layout_width="339sp"
         android:layout_height="51sp"
@@ -118,17 +113,12 @@
         android:layout_marginTop="638sp"
         android:layout_marginStart="44sp"
         android:text="CONTINUE WITH GOOGLE"
+        android:drawableStart="@drawable/ic_flat_color_icons_google"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="18sp"
         android:gravity="center"/>
 
-    <TextView
-        android:layout_width="24sp"
-        android:layout_height="24sp"
-        android:drawableEnd="@drawable/ic_flat_color_icons_google"
-        android:layout_marginStart="60sp"
-        android:layout_marginTop="651sp"/>
 
 
 
